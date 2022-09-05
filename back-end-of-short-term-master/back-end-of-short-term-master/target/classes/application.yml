@@ -1,0 +1,13 @@
+spring:
+  # TODO 请修改数据库连接
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/new
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8082
